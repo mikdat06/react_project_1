@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  background-color: rgb(244, 164, 96, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 12vh;
+  padding: 1rem;
+}
+h1 {
+  text-align: center;
+  font-family: "Rubik Vinyl", cursive;
+}
+main {
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.container {
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  background-color: rgba(223, 121, 121, 0.2);
+}
+.lesson_lesson {
+  display: flex;
+  flex: 30%;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+.lesson_lesson img {
+  width: 85px;
+  height: 80px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.lesson_text {
+  margin-left: 0.5rem;
+}
+.lesson_span {
+  margin-bottom: 0.35rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: sandybrown;
+}
+.lesson_parag {
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: azure;
+}
