@@ -1,8 +1,9 @@
 import img from "../img/CSS3_logo.png"
 
 const CSS = ()=>{
+    return(
     <>
-     <div class="lesson_lesson">
+     <div class="lesson_lesson col col-md-6 col-lg-4">
               <div>
                 <img src={img} alt="CSS" />
               </div>
@@ -17,6 +18,6 @@ const CSS = ()=>{
                 </p>
               </div>
             </div>
-    </>
+    </>)
 }
 export default CSS;

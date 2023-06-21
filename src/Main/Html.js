@@ -4,7 +4,7 @@ const HTML = ()=>{
     return(
         <>
     
-     <div class="lesson_lesson">
+     <div class="lesson_lesson col col-md-6 col-lg-4">
       <div>
         <img src={img} alt="HTML" />
       </div>
